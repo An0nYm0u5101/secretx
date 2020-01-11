@@ -27,6 +27,6 @@
     "square_access_token": "sqOatp-[0-9A-Za-z\\-_]{22}",
     "stripe_standard_api": "sk_live_[0-9a-zA-Z]{24}",
     "stripe_restricted_api": "rk_live_[0-9a-zA-Z]{24}",
-    "github_access_token": "[a-zA-Z0-9_-]*:[a-zA-Z0-9_\\-]+@github\\.com*"
+    "github_access_token": "[a-zA-Z0-9_-]*:[a-zA-Z0-9_\\-]+@github\\.com*",
     "JWT": "eyJ[a-zA-Z0-9]{10,}\\.eyJ[a-zA-Z0-9]{10,}\\.[a-zA-Z0-9_-]{10,})"
 }
