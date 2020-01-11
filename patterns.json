@@ -28,5 +28,7 @@
     "stripe_standard_api": "sk_live_[0-9a-zA-Z]{24}",
     "stripe_restricted_api": "rk_live_[0-9a-zA-Z]{24}",
     "github_access_token": "[a-zA-Z0-9_-]*:[a-zA-Z0-9_\\-]+@github\\.com*",
+    "private_ssh_key": "-----BEGIN PRIVATE KEY-----[a-zA-Z0-9\\S]{100,}-----END PRIVATE KEY-----",
+    "private_rsa_key": "-----BEGIN RSA PRIVATE KEY-----[a-zA-Z0-9\\S]{100,}-----END RSA PRIVATE KEY-----",
     "JWT": "eyJ[a-zA-Z0-9]{10,}\\.eyJ[a-zA-Z0-9]{10,}\\.[a-zA-Z0-9_-]{10,})"
 }
